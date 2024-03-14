@@ -4,7 +4,7 @@ const Header = ()=>{
     return(
         <div className="container">
             <div className="title">
-           Md Arif Tours And Travels
+           Md Arif Tours
         </div>
         </div>
     )
