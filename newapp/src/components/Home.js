@@ -29,7 +29,7 @@ function Home() {
       <select onChange={(e) => filterHandler(e.target.value)}
       className={selectedState ? "active-select":"inactive-select"}
     >
-        <option>show all states</option>
+        <option value="">show all states</option>
         {uniqueStates.map((item) => (
           <option key={item} value={item}>
             {item}
